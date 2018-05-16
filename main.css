@@ -1,0 +1,264 @@
+
+/* genel ayarlamalar */
+body {
+	margin: 10px;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+  padding: 0;
+}
+li{
+	list-style: none;
+}
+
+
+.container {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 2px solid #000;
+	background-color: #888;
+}
+
+/* header kısmı biçimlendirmesi */
+header {
+	width: 90%;
+	height: 100px;
+	margin: 20px 10px 0px 10px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border: 2px solid #000;
+	background-color: #bbb;
+}
+
+.logo {
+	display: block;
+	font-size: 30px;
+	padding: 25px;
+	border: 2px solid #000;
+	background-color: #fff;
+}
+
+.logo a {
+	color: #000;
+}
+
+.nameofsite {
+	font-size: 40px;
+}
+
+#search-box {
+	width: 100px;
+}
+
+/* menü kısmı biçimlendirmesi */
+nav {
+	width: 90%;
+	margin:10px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid #000;
+	background-color: #bbb;
+}
+
+nav ul li {
+    padding: 10px;
+    letter-spacing: 2px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000; 
+    display: inline;
+}
+nav ul li a {
+    color:#000;
+    padding: 25px;
+}
+nav ul li a:hover {
+    color:#fff;
+}
+
+/* content kısmı biçimlerdirmesi */
+.content {
+	width: 90%;
+	margin:10px;
+	padding: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	border: 2px solid #000;
+	background-color: #bbb;
+}
+
+/* content sol taraf için */
+.left-side {
+	width: 20%;
+	padding: 10px;
+	margin: 5px 10px 5px 0px;
+	border: 2px solid #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #fff;
+}
+
+.foto {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin:5px; 
+	padding: 10px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.description {
+	text-align: center;
+}
+
+/* sosyal medya ikonlarını temsilen yazıldı */
+.soc {
+	display: inline-block;
+	margin: 3px;
+	margin-top:10px;
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 50%;
+	text-align: center;
+	background-color: #fff;
+}
+
+/* content orta kısım için */
+.middle-side {
+	width: 40%;
+	min-height: 500px;
+	padding: 5px;
+	flex-grow: 1;
+	margin: 5px 0px 5px 0px;
+	border: 2px solid #000;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	background-color: #eee;
+}
+
+.box {
+	width: 90%;
+	height: 150px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #fff;
+}
+
+.information {
+	width: 90%;
+	margin-bottom: 10px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	border-bottom: 1px solid black; 
+}
+.pictures {
+	padding: 5px;
+	border: 1px solid black;
+}
+.article {
+	padding: 10px;
+	overflow: hidden;
+}
+.link-continue {
+	border-radius: 15px;
+	margin-top: 10px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+/* content sağ taraf için */
+.right-side {
+	width: 20%;	
+	margin: 5px 0px 5px 10px;
+	padding: 10px;
+	border: 2px solid #000;
+	background-color: #eee;
+}
+
+/* giriş yap bölümü */
+.login {
+	border: 1px solid #000;
+	margin-bottom: 5px;
+	background-color: #fff;
+}
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.input-login {
+	width: 80%;
+	margin: 10px;
+	padding: 5px;
+	outline-style: none ;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+#login-button {
+	padding: 5px;
+	margin-bottom: 3px;
+	width: 50%;
+	background-color: transparent;
+    color: #000;
+    border: 2px solid #000; 
+}
+
+.box-sign-in form p {
+	margin-top: 3px;
+	font-size: 12px;
+}
+
+/* kategori bölümü */
+.categories {
+	text-align: center;
+	border: 1px solid #000;
+	margin-top: 5px;
+	background-color: #fff;
+}
+ .categories h2 {
+ 	border-bottom: 1px solid #000;
+ }
+/* footer kısmı biçimlendirmesi */
+footer {
+	width: 90%;
+	margin:10px;
+	margin-bottom: 20px;
+	padding: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border: 2px solid #000;
+	background-color: #bbb;
+}
+.social-link-general {
+	display: inline;
+}
+
